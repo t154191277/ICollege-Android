@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="CalendarView">
+        <attr name="viewinview" format="boolean"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lhh.apst.library.AdvancedPagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        style="@style/pagertab_style"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false"/>
+
+    <wmlove.bistu.utils.NoScrollViewPager
+        android:layout_below="@id/tabs"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </wmlove.bistu.utils.NoScrollViewPager>
+
+</RelativeLayout>

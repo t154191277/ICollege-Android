@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:text="数据结构"
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/name"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/line"
+        android:textSize="15dp"
+        android:text="1-3周"
+        android:layout_gravity="center"
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/line"
+        android:layout_toRightOf="@id/week"
+        android:textSize="15dp"
+        android:text="李卓"
+        android:layout_gravity="center"
+        android:id="@+id/teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:text="5.0"
+        android:id="@+id/credit"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/credit"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="3dp"
+            android:text="选修课"
+            android:id="@+id/type"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
