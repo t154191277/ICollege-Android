@@ -10,12 +10,12 @@
         android:layout_alignParentTop="true"
         android:fillViewport="false"/>
 
-    <wmlove.bistu.utils.NoScrollViewPager
+    <wmlove.icollege.utils.NoScrollViewPager
         android:layout_below="@id/tabs"
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </wmlove.bistu.utils.NoScrollViewPager>
+    </wmlove.icollege.utils.NoScrollViewPager>
 
 </RelativeLayout>

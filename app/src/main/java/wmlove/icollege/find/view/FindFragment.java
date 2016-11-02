@@ -1,4 +1,4 @@
-package wmlove.bistu.find.view;
+package wmlove.icollege.find.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import wmlove.bistu.R;
+import wmlove.icollege.R;
 
 /**
  * Created by wmlove on 2016/10/26.

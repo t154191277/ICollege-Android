@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bistu</string>
+    <string name="app_name">ICollege</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="login_hint_id">学号</string>
     <string name="login_hint_passwd">密码</string>

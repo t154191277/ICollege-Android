@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.adapter;
+package wmlove.icollege.timetable.adapter;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import wmlove.bistu.R;
-import wmlove.bistu.model.CourseDBModel;
+import wmlove.icollege.R;
+import wmlove.icollege.model.CourseDBModel;
 
 /**
  * Created by wmlove on 2016/10/19.

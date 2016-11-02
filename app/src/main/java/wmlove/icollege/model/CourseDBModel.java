@@ -1,4 +1,4 @@
-package wmlove.bistu.model;
+package wmlove.icollege.model;
 
 import java.io.Serializable;
 

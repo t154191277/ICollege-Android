@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.view;
+package wmlove.icollege.timetable.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,9 +14,11 @@ import com.lhh.apst.library.AdvancedPagerSlidingTabStrip;
 import java.util.ArrayList;
 import java.util.List;
 
-import wmlove.bistu.R;
-import wmlove.bistu.model.CourseModel;
-import wmlove.bistu.utils.NoScrollViewPager;
+
+import wmlove.icollege.R;
+import wmlove.icollege.chat.view.ChatFragment;
+import wmlove.icollege.model.CourseModel;
+import wmlove.icollege.utils.NoScrollViewPager;
 
 /**
  * Created by wmlove on 2016/10/18.
@@ -62,19 +64,10 @@ public class TimeTableFragment extends Fragment
             public int getCount() {
                 return fragmentList.size();
             }
+
         });
         mViewPager.setOffscreenPageLimit(2);
         tabs = (AdvancedPagerSlidingTabStrip) root.findViewById(R.id.tabs);
-        tabs.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_MOVE)
-                {
-                    return true;
-                }
-                return false;
-            }
-        });
         tabs.setViewPager(mViewPager);
         return root;
 

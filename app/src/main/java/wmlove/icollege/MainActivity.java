@@ -1,4 +1,4 @@
-package wmlove.bistu;
+package wmlove.icollege;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,18 +14,18 @@ import com.lhh.apst.library.AdvancedPagerSlidingTabStrip;
 
 import java.util.ArrayList;
 
-import wmlove.bistu.chat.view.ChatFragment;
-import wmlove.bistu.find.view.FindFragment;
-import wmlove.bistu.mine.view.MineFragment;
-import wmlove.bistu.timetable.view.TimeTableFragment;
-import wmlove.bistu.utils.NoScrollViewPager;
+import wmlove.icollege.chat.view.ChatFragment;
+import wmlove.icollege.find.view.FindFragment;
+import wmlove.icollege.mine.view.MineFragment;
+import wmlove.icollege.timetable.view.TimeTableFragment;
+import wmlove.icollege.utils.NoScrollViewPager;
+
 
 public class MainActivity extends AppCompatActivity {
 
 
     private NoScrollViewPager mViewPager;
     private AdvancedPagerSlidingTabStrip mTabs;
-    ArrayList<View> viewContainter = new ArrayList<View>();
     ArrayList<String> titleContainer = new ArrayList<String>();
     private ArrayList<Fragment> fragmentList = new ArrayList<Fragment>();
 
@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(findFragment);
         fragmentList.add(mineFragment);
 
-        Log.i("time1",System.currentTimeMillis()+"");
         mViewPager = (NoScrollViewPager) findViewById(R.id.viewPager);
 
         mViewPager.setOffscreenPageLimit(4);

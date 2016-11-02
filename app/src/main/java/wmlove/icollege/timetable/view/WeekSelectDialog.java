@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.view;
+package wmlove.icollege.timetable.view;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -13,9 +13,10 @@ import com.wx.wheelview.widget.WheelView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wmlove.bistu.R;
-import wmlove.bistu.timetable.adapter.WeekWheelAdapter;
-import wmlove.bistu.factory.TimeFactory;
+import wmlove.icollege.R;
+import wmlove.icollege.factory.TimeFactory;
+import wmlove.icollege.timetable.adapter.WeekWheelAdapter;
+
 
 /**
  * Created by wmlove on 2016/10/24.

@@ -1,4 +1,4 @@
-package wmlove.bistu.factory;
+package wmlove.icollege.factory;
 
 import android.content.ContentValues;
 import android.content.Context;

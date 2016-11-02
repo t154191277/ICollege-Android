@@ -1,4 +1,4 @@
-package wmlove.bistu.http.okhttp;
+package wmlove.icollege.http.okhttp;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -23,10 +23,11 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 import okio.BufferedSource;
-import wmlove.bistu.model.CourseModel;
-import wmlove.bistu.factory.DBFactory;
-import wmlove.bistu.utils.Constant;
-import wmlove.bistu.factory.URLFactory;
+import wmlove.icollege.factory.DBFactory;
+import wmlove.icollege.factory.URLFactory;
+import wmlove.icollege.model.CourseModel;
+import wmlove.icollege.utils.Constant;
+
 
 /**
  * Created by wmlove on 2016/10/17.

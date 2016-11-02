@@ -1,4 +1,4 @@
-package wmlove.bistu.mine.util;
+package wmlove.icollege.mine.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.view;
+package wmlove.icollege.timetable.view;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -30,12 +30,12 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import wmlove.bistu.R;
-import wmlove.bistu.http.okhttp.CourseContributor;
-import wmlove.bistu.timetable.adapter.RCourseListAdapter;
-import wmlove.bistu.model.CourseDBModel;
-import wmlove.bistu.factory.DBFactory;
-import wmlove.bistu.factory.TimeFactory;
+import wmlove.icollege.R;
+import wmlove.icollege.factory.DBFactory;
+import wmlove.icollege.factory.TimeFactory;
+import wmlove.icollege.http.okhttp.CourseContributor;
+import wmlove.icollege.model.CourseDBModel;
+import wmlove.icollege.timetable.adapter.RCourseListAdapter;
 import wmlove.library.CalendarView;
 import wmlove.library.OnDaySelectListener;
 import wmlove.library.OnTimeChangeListener;
@@ -210,6 +210,7 @@ public class RTimeTableFragment extends Fragment{
             @Override
             public void OnDaySelect(Date date)
             {
+                Log.i("OnDaySelect",date +"");
                 int week = Integer.valueOf(TimeFactory.getCurrentWeek(date));
                 Log.i("OnDaySelect",week +"");
                 if (week != -1)
@@ -236,9 +237,10 @@ public class RTimeTableFragment extends Fragment{
             @Override
             public void OnTimeChange(Date currentDate)
             {
-
+                Log.i("OnDaySelect",currentDate +"");
                 int week = Integer.valueOf(TimeFactory.getCurrentWeek(currentDate));
-                Log.i("OnTimeChange",week +"," + currentDate.toString());
+
+                Log.i("OnDaySelect",week +"");
                 if (week != -1)
                 {
                     dateTextView.setText("第"+ week +"周");

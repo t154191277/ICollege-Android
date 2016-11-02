@@ -1,11 +1,11 @@
-package wmlove.bistu;
+package wmlove.icollege;
 
 import org.junit.Test;
 
 import java.util.Calendar;
 import java.util.Date;
 
-import wmlove.bistu.factory.TimeFactory;
+import wmlove.icollege.factory.TimeFactory;
 
 /**
  * Created by wmlove on 2016/10/22.

@@ -1,11 +1,11 @@
-package wmlove.bistu.timetable.view;
+package wmlove.icollege.timetable.view;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 
-import wmlove.bistu.R;
-import wmlove.bistu.model.CourseDBModel;
+import wmlove.icollege.R;
+import wmlove.icollege.model.CourseDBModel;
 
 /**
  * Created by wmlove on 2016/10/24.

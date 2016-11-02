@@ -1,6 +1,5 @@
-package wmlove.bistu;
+package wmlove.icollege;
 
-import android.text.TextUtils;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package wmlove.bistu.model;
+package wmlove.icollege.model;
 
 /**
  * Created by wmlove on 2016/10/26.

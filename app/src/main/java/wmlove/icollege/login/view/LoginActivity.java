@@ -1,4 +1,4 @@
-package wmlove.bistu.login.view;
+package wmlove.icollege.login.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,12 +23,12 @@ import com.google.gson.Gson;
 
 import java.util.concurrent.ExecutionException;
 
-import wmlove.bistu.MainActivity;
-import wmlove.bistu.R;
-import wmlove.bistu.http.okhttp.LoginContributor;
-import wmlove.bistu.model.TokenModel;
-import wmlove.bistu.model.UserModel;
-import wmlove.bistu.factory.WindowsFactory;
+import wmlove.icollege.MainActivity;
+import wmlove.icollege.R;
+import wmlove.icollege.factory.WindowsFactory;
+import wmlove.icollege.http.okhttp.LoginContributor;
+import wmlove.icollege.model.TokenModel;
+import wmlove.icollege.model.UserModel;
 
 public class LoginActivity extends Activity {
 

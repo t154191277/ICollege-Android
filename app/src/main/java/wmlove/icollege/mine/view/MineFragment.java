@@ -1,4 +1,4 @@
-package wmlove.bistu.mine.view;
+package wmlove.icollege.mine.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,13 +26,11 @@ import android.widget.TextView;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
 
-import wmlove.bistu.R;
-import wmlove.bistu.http.okhttp.StudentContributor;
-import wmlove.bistu.login.view.LoginActivity;
-import wmlove.bistu.mine.util.BitmapFactory;
+import wmlove.icollege.R;
+import wmlove.icollege.http.okhttp.StudentContributor;
+import wmlove.icollege.login.view.LoginActivity;
+import wmlove.icollege.mine.util.BitmapFactory;
 
 /**
  * Created by wmlove on 2016/10/18.

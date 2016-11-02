@@ -10,14 +10,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/linhomhom-apsts" />
+            <option value="$PROJECT_DIR$/wmlove-calendarview" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/linhomhom-apsts" />
+            <option value="$PROJECT_DIR$/wmlove-calendarview" />
           </set>
         </option>
       </GradleProjectSettings>

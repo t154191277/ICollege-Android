@@ -1,11 +1,12 @@
-package wmlove.bistu.mine.view;
+package wmlove.icollege.mine.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import wmlove.bistu.R;
+import wmlove.icollege.R;
+
 
 public class QueryActivity extends AppCompatActivity {
 

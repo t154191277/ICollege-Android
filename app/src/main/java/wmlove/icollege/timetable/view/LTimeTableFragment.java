@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.view;
+package wmlove.icollege.timetable.view;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -13,10 +13,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import wmlove.bistu.R;
-import wmlove.bistu.model.CourseDBModel;
-import wmlove.bistu.timetable.adapter.LCourseListAdapter;
-import wmlove.bistu.factory.DBFactory;
+import wmlove.icollege.R;
+import wmlove.icollege.factory.DBFactory;
+import wmlove.icollege.model.CourseDBModel;
+import wmlove.icollege.timetable.adapter.LCourseListAdapter;
 
 /**
  * Created by wmlove on 2016/10/24.

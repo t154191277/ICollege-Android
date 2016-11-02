@@ -1,4 +1,4 @@
-package wmlove.bistu.factory;
+package wmlove.icollege.factory;
 
 import java.util.HashMap;
 import java.util.Map;

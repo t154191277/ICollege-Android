@@ -1,4 +1,4 @@
-package wmlove.bistu.utils;
+package wmlove.icollege.utils;
 
 /**
  * Created by wmlove on 2016/10/12.

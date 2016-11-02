@@ -1,4 +1,4 @@
-package wmlove.bistu;
+package wmlove.icollege;
 
 import org.junit.Test;
 

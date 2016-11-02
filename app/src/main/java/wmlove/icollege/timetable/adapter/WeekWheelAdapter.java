@@ -1,4 +1,4 @@
-package wmlove.bistu.timetable.adapter;
+package wmlove.icollege.timetable.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,8 @@ import android.widget.TextView;
 
 import com.wx.wheelview.adapter.BaseWheelAdapter;
 
-import wmlove.bistu.R;
+import wmlove.icollege.R;
+
 
 /**
  * Created by wmlove on 2016/10/24.
